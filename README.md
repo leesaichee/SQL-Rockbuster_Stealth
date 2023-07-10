@@ -37,7 +37,10 @@ Descriptions and Entity Relationship Diagram of the database can be found in the
 ## Tools
 PostgreSQL, DbVisualizer, Excel, PowerPoint, Tableau Public
 
-## Final Presentation
+## Final Deliverables
 - A presentation slide
-- A data dictionary
+- A [data dictionary](../Rockbuster - Data Dictionary.pdf)
 - An Excel file of SQL queries and their outputs
+
+## Visualizations
+Visualizations for this project can be found [here](https://public.tableau.com/views/VisualizationsforRockbusterProject/AvgRevperMovievsGenre-Bar?:language=en-US&:display_count=n&:origin=viz_share_link). 
