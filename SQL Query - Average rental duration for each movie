@@ -3,23 +3,23 @@
 -- The CTE "actual_rental_duration_cte" below calculates the actual rental duration of each individual rental happened
 WITH actual_rental_duration_cte (rental_id, inventory_id, actual_rental_duration) AS 
 	(SELECT rental_id,		
-	 		inventory_id, 
-	 		-- Convert an interval value to a numerical value using EXTRACT
-	 	    (EXTRACT(DAY FROM (return_date - rental_date)) + 	
-	 	 	 EXTRACT(HOUR FROM (return_date - rental_date))/24 + 
-	 	 	 EXTRACT(MINUTE FROM (return_date - rental_date))/24/60) AS actual_rental_duration  
+	 	inventory_id, 
+	 	-- Convert an interval value to a numerical value using EXTRACT
+	 	(EXTRACT(DAY FROM (return_date - rental_date)) + 	
+	 	 EXTRACT(HOUR FROM (return_date - rental_date))/24 + 
+	 	 EXTRACT(MINUTE FROM (return_date - rental_date))/24/60) AS actual_rental_duration  
 	 FROM rental)
 
 -- Using the actual rental duration from the CTE above, merge with other tables to get the average rental duration per movie
 SELECT A.title,	
-	   E.name AS genre,		
-	   ROUND(AVG(C.actual_rental_duration), 2) AS avg_actual_rental_duration 
+       E.name AS genre,		
+       ROUND(AVG(C.actual_rental_duration), 2) AS avg_actual_rental_duration 
 FROM film A			
 INNER JOIN inventory B ON A.film_id = B.film_id			
 INNER JOIN actual_rental_duration_cte C ON B.inventory_id = C.inventory_id			
 INNER JOIN film_category D ON A.film_id = D.film_id			
 INNER JOIN category E ON D.category_id = E.category_id			
 GROUP BY A.title, 
-		 E.name		
+	 E.name		
 ORDER BY avg_actual_rental_duration DESC			
 
