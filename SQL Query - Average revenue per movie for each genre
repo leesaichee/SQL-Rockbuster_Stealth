@@ -1,4 +1,4 @@
--- This SQL query is aimed to obtain the average revenue per movie for each genre. 
+-- This SQL query is aimed to find the average revenue per movie for each genre. 
 
 SELECT E.name AS genre,	
 	     SUM(A.amount) AS revenue,
