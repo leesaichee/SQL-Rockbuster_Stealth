@@ -1,5 +1,5 @@
 # SQL_Rockbuster_Stealth
-As part of the Career Foundry Data Analytics Program, this project is aimed to demonstrate the knowledge of SQL to answer business questions. 
+As part of the Career Foundry Data Analytics Program, this [project](Rockbuster%20-%20Data%20Project%20Brief%20.pdf) is aimed to demonstrate the knowledge of SQL to answer business questions. 
 
 ## Background
 Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive.
