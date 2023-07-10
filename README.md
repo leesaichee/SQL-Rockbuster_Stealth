@@ -39,7 +39,7 @@ PostgreSQL, DbVisualizer, Excel, PowerPoint, Tableau Public
 
 ## Final Deliverables
 - A presentation slide
-- A [data dictionary](Rockbuster - Data Dictionary.pdf)
+- A [data dictionary](leesaichee/SQL_Rockbuster_Stealth/blob/main/Rockbuster%20-%20Data%20Dictionary.pdf)
 - An Excel file of SQL queries and their outputs
 
 ## Visualizations
