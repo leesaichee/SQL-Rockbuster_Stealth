@@ -32,15 +32,15 @@ The Rockbuster data set was provided by Career Foundry and comprised the followi
 - city
 - country
 
-Descriptions and Entity Relationship Diagram of the database can be found in the data dictionary.
+Descriptions and [Entity Relationship Diagram](Rockbuster%20-%20ERD.jpg) of the database can be found in the data dictionary.
 
 ## Tools
 PostgreSQL, DbVisualizer, Excel, PowerPoint, Tableau Public
 
 ## Final Deliverables
-- A presentation slide
-- A [data dictionary](leesaichee/SQL_Rockbuster_Stealth/blob/main/Rockbuster%20-%20Data%20Dictionary.pdf)
-- An Excel file of SQL queries and their outputs
+- A [presentation slide](Rockbuster%20-%20Presentation%20Slide.pptx)
+- A [data dictionary](Rockbuster%20-%20Data%20Dictionary.pdf)
+- An [Excel file](Rockbuster%20-%20SQL%20Queries%20%26%20Outputs.xlsx) of SQL queries and their outputs
 
 ## Visualizations
 Visualizations for this project can be found [here](https://public.tableau.com/views/VisualizationsforRockbusterProject/AvgRevperMovievsGenre-Bar?:language=en-US&:display_count=n&:origin=viz_share_link). 
