@@ -35,7 +35,11 @@ The Rockbuster data set was provided by Career Foundry and comprised the followi
 Descriptions and [Entity Relationship Diagram](Rockbuster%20-%20ERD.jpg) of the database can be found in the data dictionary.
 
 ## Tools
-PostgreSQL, DbVisualizer, Excel, PowerPoint, Tableau Public
+- PostgreSQL 
+- DbVisualizer
+- Excel
+- PowerPoint
+- Tableau Public
 
 ## Final Deliverables
 - A [presentation slide](Rockbuster%20-%20Presentation%20Slide.pptx)
