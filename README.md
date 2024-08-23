@@ -49,4 +49,4 @@ Descriptions and [Entity Relationship Diagram](Rockbuster%20-%20ERD.jpg) of the 
 - An [Excel file](Rockbuster%20-%20SQL%20Queries%20%26%20Outputs.xlsx) of SQL queries and their outputs
 
 ## Visualizations
-Visualizations for this project can be found [here](https://public.tableau.com/views/VisualizationsforRockbusterProject/AvgRevperMovievsGenre-Bar?:language=en-US&:display_count=n&:origin=viz_share_link). 
+Visualizations for this project can be found [here](https://public.tableau.com/views/VisualizationsforRockbusterStealth/AvgRevperMovievsGenre-Bar?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). 
